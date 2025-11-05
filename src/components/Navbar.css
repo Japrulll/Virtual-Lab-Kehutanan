@@ -6,6 +6,7 @@
   align-items: center;
   height: 90px;
   background: linear-gradient(90deg, #43AB9F, #66BDA8);
+  opacity: 0.75;
   color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
