@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from "../assets/Logo-SITH-WHITE.png"; // nanti kamu ganti pakai logo kamu
 import user_logo from "../assets/user-icon.png";
 
-function Navbar() {
+function Navbar({ onUserClick }) {
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -17,7 +17,9 @@ function Navbar() {
       </ul>
 
       <div className="navbar-right">
-        <img src={user_logo} alt="user Logo" className="user-icon" />
+        <img src={user_logo} alt="user Logo" className="user-icon" 
+        onClick={onUserClick} 
+        style={{ cursor: "pointer" }}/>
       </div>
     </nav>
   );

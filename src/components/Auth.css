@@ -1,0 +1,115 @@
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, #43AB9F, #66BDA8);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 80px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px ;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  height: 450px;
+  text-align: center;
+}
+
+.login-logo{
+  height: 80px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+.login h2 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* jarak antar input */
+  width: 100%;
+}
+
+.login label {
+  color: #fff;
+  text-align: left;
+  font-weight: 500;
+}
+
+.login input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.login button {
+  align-self: center;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-success {
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: #17c964;
+  color: white;
+}
+
+.btn-default {
+  background-color: white;
+  color: #17c964;
+  margin-top: -5px;
+}
+
+.btn-success:hover {
+  background-color: #149b52;
+}
+
+.btn-default:hover {
+  background-color: #dfffe3;
+}
+
+.back-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: #17c964;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: #dfffe3;
+}
+
+.text-danger{
+  font-size: 10px;
+  color: rgb(255, 0, 0);
+  font-weight: 500;
+  margin-top: none;
+  margin-bottom: -10px;
+}
